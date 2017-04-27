@@ -1,2 +1,6 @@
 # Code-Samples
-Code samples from various projects done by myself. 
+Code samples from various projects done by Anders Muskens in various languages. Please see the following:
+
+BidirectionalMailbox Class: This class in C++ was designed for use on the TI Tiva ARM cortex embedded system running TI-RTOS. It gives a server-client functionality between disparate threaded tasks so that information can be requested and transferred between them. It is non-blocking.
+
+scan_example: This function excerpt from a Python class is part of teh MARIUS software designed to characterize optical circuits. ( http://andersmuskens.com/#page=projects#13 ) This function can align an input or output fibre optic cable to its maximum coupling position by controlling a variable frequency laser, a nanotranslation stage, and an optical spectrum analyzer. The fibre optic cable sweeps in a grid pattern, and the respective intensity is measured. The collected data is then interpolated to give a best guess of the maxima. The sweep can then be repeated using a smaller grid size to refine the alignment. 
